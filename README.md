@@ -10,6 +10,7 @@
 5、在manage.py所在目录打开cmd，运行python manage.py makemigrations，然后运行python manage.py migrate（mysql处于开启状态）
 6、运行python manage.py runserver
 7、在浏览器输入http://127.0.0.1:8000，即可打开搜索界面
+
 8、存在的不足：
 （1）爬虫爬取图片会跳出谷歌浏览器页面（稍后关闭），所以整个查询时间较长
 （2）若是爬取不到的图片，都使用了自定义的网络图片
